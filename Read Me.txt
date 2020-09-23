@@ -1,0 +1,118 @@
+/////////////////////////////////
+1. What is this?
+2. Installation
+3. Who made this?
+4. Versions
+5. Todo list
+//////////////////////////////
+
+
+
+1. What is this?
+This is the calendar specaly made to suit The Emperor's Hammer. Just as the name
+imply it's a calendar that can store important dates just like a normal paper 
+calendar, only this is electronical and got a much more clean interface. It 
+also contains a reminder program that will, if you chose so, remind you on the
+correct date and time.
+
+/////////////////////////////////////////////////////////////////////////////////
+
+
+
+2. Installation
+When the program is started it is directly minimized to the system tray (lower right
+corner of the screen). To bring up the program simply click on the icon in the 
+system tray.
+To make full use of the program a shortcut should be added to the autostart folder 
+in the start menu, otherwise the reminder part won't work as it should.
+The program isn't exactly hard to manage. When started you'll see a list of dates,
+click on one and you'll see the information attached to it. To add a date klick 
+"Add", to edit a record klick "Edit" etc.
+If you wish to be reminded on the date (and time) then check the "Remind me" box in
+the add/eddit window. If you don't wish to be reminded at a certain time on the date 
+simply leave the time field be (00:00:00) and it will remind you as soon as the 
+computer starts on the date you specified. If you miss a date (not having the program
+running) then it will remind you as soon as it starts and tell you how much late the
+reminder is.
+The program checks for a reminder every minute, so there's no point in filling it
+the seconds.
+The reminder record is atomaticaly deleted after being viewd, the calendar record
+on the other hand stays untill you delete it manualy.
+To use the search funtions simply enter a word you wish to search for and the 
+program will look through the subjects for it. If the "Complete Search"
+checkbox is checked the porgram will also go trough the body of the record in 
+search for a match.
+The two records already there when you start the program for the first time is
+hardcoded and you can not delete or in anyother way change them.
+The theoretical limit of the number of records you can use is 65535. How ever
+you'll run into problmes long beofre you reach this mark since the database will
+simply take too long to load. There should be no problme with as many as 1000
+records, and even 2000 should be ok, but after that you'd be pushing it.
+Under the option section you can sync your computer's clock with a atom clock.
+This works no matter which time zone you're in. Checking the "Auto sync" check
+box will atomaticaly sync your computer clock each houer (as long as the program
+is runing that is), this should only be used if you have a constant conection
+to the net. If you have a firewall there might be some problmes with conection 
+to the atom clock serve, opening port nr 13 should fix this problme (consult your 
+router/firewall manual on how to do this).
+Here you can also chose any sound you want to use when the reminder pops up, or
+chose not to have a sound played.
+
+///////////////////////////////////////////////////////////////////////////////////
+
+
+
+3. Who made this?
+This program was programmed by (then) CM Spearhawk (now Maj).
+A special thanks go to Gord Darkonian and Brad who helped in the finindg and 
+eliminating of several bugs. 
+
+///////////////////////////////////////////////////////////////////////////////////
+
+
+
+4. Versions
+Beta 1  -  First compiling. Most of the features are in place and working in 
+           one way or another.
+Beta 2  -  Changed the program to only check once very minute except every second.
+	   The program will now display the reminder as soon as the program starts
+           incase the program was shutdown during the time the date pased.
+	   Fixed the problem with the systemtray incon not disapearing on quit.
+	   Added the bility to sync the system time with a atom clock.
+Beta 3  -  Fixed problem with program time not syncing with the system time.
+	   Fixed problem with program crashing when hiting the edit button with
+	   no record selected in the list.
+	   Fiexed problem with diffrent date formats.
+	   Removed the X quit button since it wouldn't quit the program as it should.
+Beta 4  -  Fixed problem with the hardcoded dates not returning to normal after time
+	   sync.
+	   Fixed problme with time and date not being updated after time sync.
+	   Fixed the search function to work with other than a exact match and added
+	   the posibility to search the body as well as the subject.
+	   Fixed problme with trying to add empty records.
+	   Added diffrent mouse pointers so the user know when the program is working.
+	   The program now starts in mimimized mode so that it can be started with the
+	   system without being in the way.
+	   Fixed minor spelling errors.
+	   Changed search function to be case insensitive.
+Public 1 - Program now complete
+	
+///////////////////////////////////////////////////////////////////////////////////
+
+
+
+5. Todo list
+* Make a better interface, perhaps with some more Star Wars like graphic
+* Make/find a better systemtray icon
+* Get sugiestions from other team memebers and implete them
+* Add several other things not yet thought of
+
+	
+
+Disclaimer
+----------
+ 
+THIS PROGRAM AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, 
+EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES 
+OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE. THE MAKER OF THIS
+PROGRAM IS IN NO WAY RESPONSIBLE FOR ANY HURT IT MIGHT CAUSE YOUR SYSTEM.
