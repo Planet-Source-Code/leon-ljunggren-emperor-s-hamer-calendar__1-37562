@@ -1,0 +1,469 @@
+[Root]
+Most Recent Package=Test
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Options.shp=
+C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Records.shp=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Spearminder.exe=Yes
+C:\WINDOWS.000\SYSTEM\Msvbvm60.dll=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program\Vanliga filer\Microsoft Shared\DAO\DAO360.DLL=Yes
+C:\WINDOWS.000\SYSTEM\msjet40.dll=Yes
+C:\WINDOWS.000\SYSTEM\msjter40.dll=Yes
+C:\WINDOWS.000\SYSTEM\msjint40.dll=Yes
+C:\WINDOWS.000\SYSTEM\VBAJET32.DLL=Yes
+C:\WINDOWS.000\SYSTEM\expsrv.dll=Yes
+C:\WINDOWS.000\SYSTEM\mswstr10.dll=Yes
+C:\WINDOWS.000\SYSTEM\mswdat10.dll=Yes
+C:\WINDOWS.000\SYSTEM\msrd2x40.dll=Yes
+C:\WINDOWS.000\SYSTEM\msrd3x40.dll=Yes
+C:\WINDOWS.000\SYSTEM\msrepl40.dll=Yes
+C:\WINDOWS.000\SYSTEM\msjtes40.dll=Yes
+C:\WINDOWS.000\SYSTEM\VB5DB.DLL=Yes
+C:\WINDOWS.000\SYSTEM\Mscomctl.ocx=Yes
+C:\WINDOWS.000\SYSTEM\MSCOMCT2.OCX=Yes
+C:\WINDOWS.000\SYSTEM\MSSTDFMT.DLL=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS.000\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Options.shp=Yes
+C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Records.shp=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Spearminder.exe=$(AppPath)
+C:\WINDOWS.000\SYSTEM\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program\Vanliga filer\Microsoft Shared\DAO\DAO360.DLL=$(MSDAOPath)
+C:\WINDOWS.000\SYSTEM\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\Mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS.000\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Options.shp=$(AppPath)
+C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Records.shp=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Spearminder.exe=No
+C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Options.shp=No
+C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Records.shp=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Spearminder
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Package
+ProjectFolder=C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder
+ServerSideCab=
+File1=C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Package\setup.exe
+File2=C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Package\Setup.Lst
+File3=C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Package\Spearminder.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Spearminder
+PrivateGroup0=-1
+Parent0=$(Programs)
+Group1=Autostart
+PrivateGroup1=-1
+Parent1=$(Programs)
+
+[Package|Standard Setup Package 1|Spearminder]
+Icon1=Spearminder.exe
+Title1=Spearminder
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Autostart]
+Icon1=Spearminder.exe
+Title1=Spearminder
+StartIn1=$(AppPath)
+Key1=Icon6
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Package
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+records.shp=
+options.shp=
+
+[Package|Dep File 1|Missing Dependency Information]
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+
+[Package|Dep File 1|Files Added]
+options.shp=
+records.shp=
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program\Microsoft Visual Studio\My Projects VB\The Delta Project\The Delta Project - Calendar.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program\Delade filer\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINNT\system32\msjet40.dll=Yes
+C:\WINNT\system32\msjter40.dll=Yes
+C:\WINNT\system32\msjint40.dll=Yes
+C:\WINNT\system32\vbajet32.dll=Yes
+C:\WINNT\system32\expsrv.dll=Yes
+C:\WINNT\system32\mswstr10.dll=Yes
+C:\WINNT\system32\mswdat10.dll=Yes
+C:\WINNT\system32\msrd2x40.dll=Yes
+C:\WINNT\system32\msrd3x40.dll=Yes
+C:\WINNT\system32\msrepl40.dll=Yes
+C:\WINNT\system32\msjtes40.dll=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSCOMCT2.OCX=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\MSWINSCK.OCX=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 1|Install Locations]
+C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Spearminder.exe=$(AppPath)
+C:\WINDOWS.000\SYSTEM\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program\Vanliga filer\Microsoft Shared\DAO\DAO360.DLL=$(MSDAOPath)
+C:\WINDOWS.000\SYSTEM\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\Mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS.000\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Options.shp=$(AppPath)
+C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Records.shp=$(AppPath)
+C:\Program\Microsoft Visual Studio\My Projects VB\The Delta Project\The Delta Project - Calendar.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program\Delade filer\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINNT\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSWINSCK.OCX=$(WinSysPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=Yes
+C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Spearminder.exe=No
+C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Options.shp=No
+C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Records.shp=No
+
+[Package|Dep File 1|Distribution]
+Type=single
+Size=
+Title=Spearminder
+
+[Package|Dep File 1|IconGroups]
+Group0=Spearminder
+PrivateGroup0=-1
+Parent0=$(Programs)
+Group1=Autostart
+PrivateGroup1=-1
+Parent1=$(Programs)
+
+[Package|Dep File 1|Spearminder]
+Icon1=Spearminder.exe
+Title1=Spearminder
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 1|Autostart]
+Icon1=Spearminder.exe
+Title1=Spearminder
+StartIn1=$(AppPath)
+Key1=Icon6
+
+[Package|Dep File 1|DepFile]
+DepCabFile=Spearminder.CAB
+DepCabRun=Spearminder.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Package
+ProjectFolder=C:\Program\Microsoft Visual Studio\My Projects VB\The Delta Project
+ServerSideCab=
+File1=C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Package\The Delta Project - Calendar.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Test|Spearminder]
+Icon1="The Delta Project - Calendar.exe"
+Title1=Calendar
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Test|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Calendar
+
+[Package|Test|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Test|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Test|Files Found]
+
+[Package|Test|Files Released]
+Records.shp=
+Options.shp=
+
+[Package|Test|Missing Dependency Information]
+
+[Package|Test|Out-of-Date Dependency Information]
+
+[Package|Test|Files Added]
+c:\program\microsoft visual studio\my projects vb\the delta project\records.mdb=
+c:\program\microsoft visual studio\my projects vb\the delta project\options.ini=
+c:\program\microsoft visual studio\my projects vb\the delta project\read me.txt=
+c:\program\microsoft visual studio\my projects vb\the delta project\allclear.wav=
+
+[Package|Test|Files Removed]
+
+[Package|Test|Files In Project]
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program\Delade filer\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINNT\system32\msjet40.dll=Yes
+C:\WINNT\system32\msjter40.dll=Yes
+C:\WINNT\system32\msjint40.dll=Yes
+C:\WINNT\system32\vbajet32.dll=Yes
+C:\WINNT\system32\expsrv.dll=Yes
+C:\WINNT\system32\mswstr10.dll=Yes
+C:\WINNT\system32\mswdat10.dll=Yes
+C:\WINNT\system32\msrd2x40.dll=Yes
+C:\WINNT\system32\msrd3x40.dll=Yes
+C:\WINNT\system32\msrepl40.dll=Yes
+C:\WINNT\system32\msjtes40.dll=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSCOMCT2.OCX=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\MSWINSCK.OCX=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program\Microsoft Visual Studio\My Projects VB\The Delta Project\records.mdb=Yes
+C:\Program\Microsoft Visual Studio\My Projects VB\The Delta Project\Options.ini=Yes
+C:\Program\Microsoft Visual Studio\My Projects VB\The Delta Project\Read Me.txt=Yes
+C:\Program\Microsoft Visual Studio\My Projects VB\The Delta Project\ALLCLEAR.WAV=Yes
+C:\Program\Microsoft Visual Studio\My Projects VB\The Delta Project\Calendar.exe=Yes
+
+[Package|Test|Configure Registry Files]
+Applicable=No
+
+[Package|Test|Configure Remote Servers]
+Applicable=No
+
+[Package|Test|Install Locations]
+C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Spearminder.exe=$(AppPath)
+C:\WINDOWS.000\SYSTEM\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program\Vanliga filer\Microsoft Shared\DAO\DAO360.DLL=$(MSDAOPath)
+C:\WINDOWS.000\SYSTEM\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINDOWS.000\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\Mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS.000\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS.000\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Options.shp=$(AppPath)
+C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Records.shp=$(AppPath)
+C:\Program\Microsoft Visual Studio\My Projects VB\The Delta Project\The Delta Project - Calendar.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program\Delade filer\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINNT\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program\Microsoft Visual Studio\My Projects VB\The Delta Project\records.mdb=$(AppPath)
+C:\Program\Microsoft Visual Studio\My Projects VB\The Delta Project\Options.ini=$(AppPath)
+C:\Program\Microsoft Visual Studio\My Projects VB\The Delta Project\Read Me.txt=$(AppPath)
+C:\Program\Microsoft Visual Studio\My Projects VB\The Delta Project\ALLCLEAR.WAV=$(AppPath)
+C:\Program\Microsoft Visual Studio\My Projects VB\The Delta Project\Calendar.exe=$(AppPath)
+
+[Package|Test|Configure Shared Files]
+Applicable=Yes
+C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Spearminder.exe=No
+C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Options.shp=No
+C:\Program\Microsoft Visual Studio\VB98\My VB Projects\Spearminder\Records.shp=No
+C:\Program\Microsoft Visual Studio\My Projects VB\The Delta Project\The Delta Project - Calendar.exe=No
+C:\Program\Microsoft Visual Studio\My Projects VB\The Delta Project\records.mdb=No
+C:\Program\Microsoft Visual Studio\My Projects VB\The Delta Project\Options.ini=No
+C:\Program\Microsoft Visual Studio\My Projects VB\The Delta Project\Read Me.txt=No
+C:\Program\Microsoft Visual Studio\My Projects VB\The Delta Project\ALLCLEAR.WAV=No
+C:\Program\Microsoft Visual Studio\My Projects VB\The Delta Project\Calendar.exe=No
+
+[Package|Test|Distribution]
+Type=single
+Size=
+Title=Calendar
+
+[Package|Test|IconGroups]
+Group0=Autostart
+PrivateGroup0=-1
+Parent0=$(Programs)
+Group1=Calendar
+PrivateGroup1=-1
+Parent1=$(Programs)
+
+[Package|Test|Autostart]
+Icon1="The Delta Project - Calendar.exe"
+Title1=Calendar
+StartIn1=$(AppPath)
+Key1=Icon6
+
+[Package|Test|Calendar]
+Icon1="The Delta Project - Calendar.exe"
+Title1=Calendar
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Test|Package]
+PackageFolder=C:\Calendar
+ProjectFolder=C:\Program\Microsoft Visual Studio\My Projects VB\The Delta Project
+ServerSideCab=
+File1=C:\Calendar\setup.exe
+File2=C:\Calendar\Setup.Lst
+File3=C:\Calendar\Calendar.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
